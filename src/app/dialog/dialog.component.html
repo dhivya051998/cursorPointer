@@ -1,0 +1,11 @@
+<div class="main">
+<div class="dialogBox" (keyup.esc)="this.data.showBox=false" tabindex="1">
+    <span class="material-symbols-outlined" (click)="hide($event)">
+        close
+        </span>
+     <h2>Create Element</h2>   
+    <label>X : <input type="number" [(ngModel)]="x_value" ></label>
+    <label>Y : <input type="number" [(ngModel)]="y_value" ></label>
+<button class="hide" (click)="hide($event)">click</button>
+</div>
+</div>

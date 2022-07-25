@@ -1,0 +1,82 @@
+
+.container {
+    height: 650px;
+    width: 100vw;
+    display: flex;
+    gap: 20px;
+}
+h1{
+    text-align: center;
+}
+.circle {
+    height: 15px;
+    width: 15px;
+    top: 0px;
+    left: 0px;
+    position: absolute;
+    background-color: gray;
+
+}
+.box1 {
+    display: flex;
+    width: 50%;
+    background-color: #dedede;
+}
+
+.box2 {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    flex-direction: column;
+    width: 50%;
+    gap: 10px;
+    background-color: #dedede;
+}
+
+.emptyBox {
+    height: 50px;
+    width: 500px;
+    padding: 5px 10px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+
+.test1 {
+    width: 10px;
+    height: 10px;
+    background-color: orange;
+    position: absolute;
+    border-radius: 3px;
+    cursor: pointer;
+    
+}
+.dialogBox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+}
+.material-symbols-outlined{
+    cursor: pointer;
+}
+button{
+    font-size: 14px;
+    background-color:#60bcc9;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    width: 100px;
+    margin-top: 20px;
+    cursor: pointer;
+    color: #ffffff;
+}
+.bgColor{
+    background-color: #60bcc9;
+    color: #ffffff;
+}
+
+

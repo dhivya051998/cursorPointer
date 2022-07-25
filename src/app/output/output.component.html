@@ -1,0 +1,8 @@
+<div>
+    <div class="emptyBox" *ngFor="let y of appendDiv1 ; index as i" [ngClass]="{'bgColor':y.x==this._dataService.top&&y.y==this._dataService.left}">
+        <div class="emptyBox1">positionX:{{y.x}} , positionY:{{y.y}}</div>
+        <span class="material-symbols-outlined" (click)="remove(i)">
+            delete
+            </span>
+    </div>
+</div>

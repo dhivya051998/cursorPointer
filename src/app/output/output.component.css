@@ -1,0 +1,20 @@
+.emptyBox {
+    height: 50px;
+    width: 500px;
+    padding: 5px 10px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: space-between;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.material-symbols-outlined{
+    cursor: pointer;
+}
+.bgColor{
+    background-color: #60bcc9;
+    color: #ffffff;
+    border: none;
+}
