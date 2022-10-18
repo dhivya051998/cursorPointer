@@ -2,7 +2,7 @@
     height: 50px;
     width: 500px;
     padding: 5px 10px;
-    border: 1px solid black;
+    border: 1px solid var(--bordercolor);
     display: flex;
     align-items: center;
     gap: 10px;

@@ -4,6 +4,7 @@
     width: 100vw;
     display: flex;
     gap: 20px;
+    color: var(--bordercolor);
 }
 h1{
     text-align: center;
@@ -20,7 +21,7 @@ h1{
 .box1 {
     display: flex;
     width: 50%;
-    background-color: #dedede;
+    background-color:var(--div-bgColor);
 }
 
 .box2 {
@@ -30,25 +31,12 @@ h1{
     flex-direction: column;
     width: 50%;
     gap: 10px;
-    background-color: #dedede;
+    background-color:var(--div-bgColor);
 }
-
-.emptyBox {
-    height: 50px;
-    width: 500px;
-    padding: 5px 10px;
-    border: 1px solid black;
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    justify-content: space-between;
-    border-radius: 10px;
-}
-
 .test1 {
     width: 10px;
     height: 10px;
-    background-color: orange;
+    background-color:var(--btn-color);
     position: absolute;
     border-radius: 3px;
     cursor: pointer;

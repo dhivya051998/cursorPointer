@@ -39,6 +39,9 @@ export class CreateDivComponent implements OnInit {
   removeEle(e:any){
     this._dataService.removeItem(e);
   }
+  toggle(){
+    document.body.classList.toggle("dark");
+  }
   
   
 }

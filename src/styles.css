@@ -3,5 +3,12 @@ body{
     overflow: hidden;
     text-align: center;
     margin: 0;
-    
+    --btn-color:orange;
+    --div-bgColor:#dedede;
+    --bordercolor:black;
+}
+.dark{
+    --btn-color:rgb(20, 211, 195);
+    --div-bgColor: rgb(46, 43, 43);
+    --bordercolor:#fff;
 }
