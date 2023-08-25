@@ -10,11 +10,12 @@ import { ActivatedRoute } from '@angular/router';
 export class CreateDivComponent implements OnInit {
 
   constructor(public _dataService:InputService, private router:ActivatedRoute) { 
-    // this.router.paramMap.subscribe(param=>{
-    //   this._dataService.left=param.get('param');
-    //   this._dataService.top=param.get('param1');
+    this.router.params.subscribe(param=>{
+      // this._dataService.left=param.get('param');
+      // this._dataService.top=param.get('param1');
+      console.log(param);
       
-    // })
+    })
   }
   appendDiv1:any=[];
   ngOnInit(): void {
